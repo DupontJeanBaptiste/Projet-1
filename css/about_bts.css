@@ -1,0 +1,233 @@
+.hm-width{
+    width: 90%;
+    margin: 10vw auto 20vw;
+}
+
+.module {
+    background-color: #4D4D4D;
+    border-radius: 20px;
+    justify-content: center;
+    padding: 20px 30px;
+
+}
+
+.logo {
+    max-width: 22rem;
+    min-width: 2rem;
+    height: auto;
+    margin: 1rem 0 0.5rem;
+    opacity: 95%;
+}
+
+.banner{
+   
+    margin: 2rem 0 0;
+    background-image: url(../img/city_banner.jpg);
+    background-size: cover;
+    background-position: top;
+    border-radius: 5px 5px 0px 0px;
+    border-bottom:  solid 3px #dee2e6;
+}
+
+
+
+h1{
+    text-align: start;
+    margin: 2rem 4rem 1rem;
+
+}
+
+.carousel-item span {
+    font-size: 5vw;
+}
+
+.carousel-item h3{
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+
+.carousel-item p{
+    line-height: 4vw;
+}
+
+.rating {
+    display: flex;
+    justify-content: center;
+}
+
+.rating div {
+    box-sizing: border-box;
+    height: 7vw;
+    width: 7vw;
+    background-color: #5f39b1;
+    border-radius: 50%;
+    margin: 1px;
+    border: solid 2px whitesmoke;
+}
+
+.rating .empty {
+    background-color: #a39695;
+}
+
+.experience {
+    margin-bottom: 0;
+}
+
+.nemesis {
+    justify-items: center;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+
+}
+
+.portrait {
+
+    margin: 100px auto -30px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    border: solid 5px whitesmoke;
+}
+
+
+.nemesis .portrait {
+    display: flex;
+    align-items: flex-end;
+    max-width: 300px;
+    max-height: 300px;
+    min-height: 150px;
+    min-width: 150px;
+    margin: 20px 10px;
+
+
+}
+
+.portrait.joker {
+    background-image: url(../img/joker.jpg);
+
+}
+
+.portrait.freeze {
+    background-image: url(../img/Mr._Freeze.webp);
+}
+
+.portrait.bane {
+    background-image: url(../img/bane.jpg);
+}
+
+.portrait.ivy {
+    background-image: url(../img/poison_ivy.jpg);
+    background-size: cover;
+}
+
+.card img {
+    height: 30vh ;
+    object-fit: cover;
+    object-position: top;
+}
+
+.card.wiki {
+    margin: 4rem 0 2rem;
+}
+
+
+
+.wiki-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.wiki-title h2{
+    text-transform: uppercase;
+
+}
+
+.wiki-title h5{
+    font-size: 3.4vw;
+   
+}
+
+form{
+    width: 100%;
+}
+
+.hm-form-color{
+    background-color: #adb5bd;
+}
+
+.card-body.hm-submit h2 {
+    /*font-size: 1.5rem;*/
+    text-align: center;
+}
+
+.card-body.hm-submit h4{
+    color: #8d8d8d;
+    margin: auto;
+    width: 70%;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.crime-checkbox{
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    margin: 3rem 0;
+    font-size: 1.2rem;
+    flex-wrap: wrap;
+}
+
+.crime-checkbox label:nth-child(1){
+    display: flex;
+    font-weight: bold;
+    margin-right: 3rem;
+    font-size: 1.5rem;
+}
+
+.crime-checkbox label {
+    margin-right: 1rem ;
+}
+
+.hm-title{
+    background-color: #212529;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    width: 30%;
+    padding: 1rem 0rem;
+    margin: 8rem auto -2rem;
+}
+
+.hm-title h3 {
+    font-size: 1.3rem;
+    
+}
+
+@media screen and (min-width: 768px){
+
+    .content{
+        width: 70%;
+        margin: auto;
+    }
+
+    .hm-width{
+        width: 85%;
+    }
+
+}
+
+/*@media screen and (min-width: 1024px){
+
+    .logo img {
+    width: 50%;
+    height: auto;
+    margin: 3rem 0 1.5rem;
+    }
+}*/
